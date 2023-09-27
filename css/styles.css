@@ -65,6 +65,11 @@ nav {
     padding-bottom: 80px;
 }
 
+.section-2 {
+    padding-bottom: 40px;
+}
+
+
 .message {
     padding-bottom: 200px;
 }
@@ -109,10 +114,25 @@ nav {
     color: #565E65;
 }
 
-.round {
+.round-image {
     border-radius: 50%;
+    object-fit: cover;
+}
+
+.image-300 {
     width: 300px;
     height: 300px;
+}
+
+.image-100 {
+    width: 100px;
+    height: 100px;
+}
+
+.square-image {
+    border-radius: 10%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -167,4 +187,9 @@ nav {
 .form-field {
     margin: 0 100px;
     padding: 50px;
+}
+
+.border-black {
+    border-style: solid;
+    border-width: thin;
 }
