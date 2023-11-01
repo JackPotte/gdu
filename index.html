@@ -2,104 +2,124 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/common.css">
         <title>Agenceco</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav id="welcome">
+        <nav id="welcome" class="sticky">
             <div class="logo">
                 <h4 class="darkgreen big3">Agenc<i>eco</i></h4>
             </div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </label>
             <ul class="nav-links">
+                <li><a href="#" class="hide-in-mobile"></a></li>
+                <li><a href="#" class="hide-in-mobile"></a></li>
+                <li><a href="#" class="hide-in-mobile"></a></li>
+                <li><a href="#" class="hide-in-mobile"></a></li>
                 <li><a href="#welcome">Accueil</a></li>
                 <li><a href="#team">Notre équipe</a></li>
                 <li><a href="#services">Nos services</a></li>
                 <li><a href="#witness">Témoignages</a></li>
                 <li><a href="#contact">Contactez-nous</a></li>
-                <li><a href="#galery">Notre galerie</a></li>
+                <li><a href="#gallery">Notre galerie</a></li>
             </ul>
         </nav>
 
         <div class="relative">
             <a href="360.html" class="no-link">
-                <img class="col-100 background-image" src="resources/rodion-kutsaev-049M_crau5k-unsplash%201.jpg">
+                <img class="col-100 background-image" src="resources/rodion-kutsaev-049M_crau5k-unsplash%201.jpg" alt="plant">
             </a>
             <h1 class="overlay right">
                 <span class="white">Bienvenue dans votre</span>
                 <br>
                 <a href="#about" class="no-link">
-                    <span class="yellow big">agence web écologique</span>
+                    <span class="yellow bigger">agence web écologique</span>
                 </a>
             </h1>
         </div>
 
         <div class="section-80">
-            <h2 id="team" class="green bold big4 center">Notre équipe</h2>
-            <div class="col-100 center big2">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+            <h2 id="team" class="green big60 semi-bold center">Notre équipe</h2>
+            <div class="row">
+                <div class="col-100 big3 semi-bold center padding-50 margin-left-80 margin-right-80">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo in nisi vehicula bibendum.
+                    Aliquam sit amet blandit nisi, sodales molestie.
+                </div>
+            </div>
         </div>
 
-        <div class="row">
+        <div class="row flex-wrap">
             <div class="col-33 center">
-                <img class="round-image image-300" src="resources/image%201.jpg"><br>
-                <b class="big2">Julie Dupond</b>
+                <img class="round-image image-300" src="resources/image%201.jpg" alt="Julie"><br>
+                <div class="big2 bold padding-10">Julie Dupond</div>
                 <br>
-                <span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <div class="grey col-50 paragraph">Consectetur adipiscing elit. Donec sed leo in nisi vehicula bibendum</div>
             </div>
             <div class="col-33 center">
-                <img class="round-image image-300" src="resources/image%202.jpg"><br>
-                <b class="big2">Romeo Sylla</b>
+                <img class="round-image image-300" src="resources/image%202.jpg" alt="Romeo"><br>
+                <div class="big2 bold padding-10">Romeo Sylla</div>
                 <br>
-                <span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <div class="grey col-50 paragraph">Consectetur adipiscing elit. Donec sed leo in nisi vehicula bibendum</div>
             </div>
             <div class="col-33 center">
-                <img class="round-image image-300" src="resources/image%203.jpg"><br>
-                <b class="big2">Javier Bardem</b>
+                <img class="round-image image-300" src="resources/image%203.jpg" alt="Javier"><br>
+                <div class="big2 bold padding-10">Javier Bardem</div>
                 <br>
-                <span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
+                <div class="grey col-50 paragraph">Consectetur adipiscing elit. Donec sed leo in nisi vehicula bibendum</div>
             </div>
         </div>
 
         <div class="section-80"></div>
 
-        <div class="row back-blue">
-            <div class="col-25 center footer-item">
-                <span class="yellow bold big3">2500</span>
+        <div id="witness" class="row back-blue flex-wrap">
+            <div class="col-25 center footer-item margin-50 margin-left-200">
+                <span class="yellow bold big60">2500</span>
                 <br>
-                <span class="white">Clients satisfaits</span>
+                <span class="white big2 semi-bold">Clients satisfaits</span>
             </div>
-            <div class="col-25 center footer-item">
-                <span class="yellow bold big3">2500</span>
+            <div class="col-25 center footer-item margin-50">
+                <span class="yellow bold big60">2500</span>
                 <br>
-                <span class="white">Clients satisfaits</span>
+                <span class="white big2 semi-bold">Clients satisfaits</span>
             </div>
-            <div class="col-25 center footer-item">
-                <span class="yellow bold big3">2500</span>
+            <div class="col-25 center footer-item margin-50">
+                <span class="yellow bold big60">2500</span>
                 <br>
-                <span class="white">Clients satisfaits</span>
+                <span class="white big2 semi-bold">Clients satisfaits</span>
             </div>
-            <div class="col-25 center footer-item">
-                <span class="yellow bold big3">2500</span>
+            <div class="col-25 center footer-item margin-50 margin-right-200">
+                <span class="yellow bold big60">2500</span>
                 <br>
-                <span class="white">Clients satisfaits</span>
+                <span class="white big2 semi-bold">Clients satisfaits</span>
             </div>
         </div>
-        <br>
 
-        <div class="section-80">
-            <h2 id="services" class="green bold big4 center">Nos services</h2>
-        </div>
+        <div class="section-80"></div>
+        <h2 id="services" class="green big60 semi-bold center">Nos services</h2>
 
-        <div class="row">
+        <div class="row flex-wrap">
             <div class="col-50 center">
-                <img class="square" src="resources/Vector.jpg">
+                <div class="grey-square">
+                    <img class="image-in-square" src="resources/Vector.jpg" alt="board">
+                </div>
                 <br>
-                <b class="big3">Création de sites web</b>
+                <span class="big4 semi-bold">Création de sites web</span>
                 <br>
             </div>
             <div class="col-50 center">
-                <img class="square" src="resources/Vector-1.jpg">
+                <div class="grey-square">
+                    <img class="image-in-square" src="resources/Vector-1.jpg" alt="chart">
+                </div>
                 <br>
-                <b class="big3">Audit Qualité</b>
+                <span class="big4 semi-bold">Audit Qualité</span>
                 <br>
             </div>
         </div>
@@ -107,7 +127,8 @@
         <div class="section-80"></div>
 
         <div class="back-blue">
-            <div id="contact" class="col-100 center yellow bold big4 footer-item">
+            <div class="section-40"></div>
+            <div id="contact" class="col-100 center yellow semi-bold big60 margin-50">
                 Contactez-nous
             </div>
             <div class="col-100 center white big3 semi-bold">
@@ -116,30 +137,30 @@
 
             <form class="form margin-50">
                 <div class="row">
-                    <div class="col-50 left white form-field">
+                    <div class="col-50 left white form-field-left">
                         <label for="name">
-                            <span class="semi-bold">Nom</span>
+                            <span class="big2">Nom</span>
                             <input type="text" name="name" class="white-bottom-border-field">
                         </label>
                     </div>
-                    <div class="col-50 left white form-field">
+                    <div class="col-50 left white form-field-right">
                         <label for="category">
-                            <span class="semi-bold">Catégorie</span>
+                            <span class="big2">Catégorie</span>
                             <input type="text" name="category" class="white-bottom-border-field">
                         </label>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-50 left white form-field">
+                    <div class="col-50 left white form-field-left">
                         <label for="phone">
-                            <span class="semi-bold">Téléphone</span>
+                            <span class="big2">Téléphone</span>
                             <input type="text" name="phone" class="white-bottom-border-field">
                         </label>
                     </div>
-                    <div class="col-50 left white form-field">
+                    <div class="col-50 left white form-field-right">
                         <label for="city">
-                            <span class="semi-bold">Ville</span>
+                            <span class="big2">Ville</span>
                             <input type="text" name="city" class="white-bottom-border-field">
                         </label>
                     </div>
@@ -148,7 +169,7 @@
                 <div class="row">
                     <div class="col-100 left white form-field">
                         <label for="email">
-                            <span class="semi-bold">Email</span>
+                            <span class="big2">Email</span>
                             <input type="text" name="email" class="white-bottom-border-field">
                         </label>
                     </div>
@@ -157,8 +178,8 @@
                 <div class="row">
                     <div class="col-100 left white form-field">
                         <label for="message">
-                            <span class="semi-bold">Message</span>
-                            <textarea rows="10" name="message" class="white-bottom-border-field"></textarea>
+                            <span class="big2">Message</span>
+                            <textarea rows="15" name="message" class="white-bottom-border-field"></textarea>
                         </label>
                     </div>
                 </div>
@@ -167,40 +188,37 @@
                 <div class="row float-right">
                     <input type="submit" value="Envoyer" class="button semi-bold" />
                 </div>
+                <div class="section-120"></div>
             </form>
         </div>
 
         <div class="section-80"></div>
 
-        <div id="about" class="row">
+        <div id="about" class="row flex-wrap">
             <div class="col-50 right">
-                <img class="square-image image-400" src="resources/jason-goodman-Oalh2MojUuk-unsplash%201.jpg" alt="Board">
+                <img class="square-image image-about" src="resources/jason-goodman-Oalh2MojUuk-unsplash%201.jpg" alt="Board">
             </div>
-        </div>
-
-        <div class="section-80"></div>
-
-        <div id="about" class="row">
-            <div class="col-50 center">
-                <img class="square-image image-400" src="resources/jason-goodman-Oalh2MojUuk-unsplash%201.jpg">
-            </div>
-            <div class="col-50 center square-image image-400 border-black">
-                <div class="section-40"></div>
-                <b>A propos de nous</b>
-                <br>
-                <span class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit</span>
-                <br>
+            <div class="left square-image image-about border-black">
+                <div class="row margin-top-50">
+                    <b class="big3 semi-bold margin-auto">A propos de nous</b>
+                </div>
+                <div class="row">
+                    <span class="grey center padding-10 margin-50 big2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo in adipiscing.
+                    </span>
+                </div>
                 <div class="row">
                     <div class="col-33 center">
-                        <img class="round-image image-100" src="resources/Vector-2.jpg"><br>
+                        <!-- TODO 40% ? -->
+                        <img class="round-image image-100" src="resources/Vector-2.jpg" alt="planet"><br>
                         <b>Écologique</b>
                     </div>
                     <div class="col-33 center">
-                        <img class="round-image image-100" src="resources/Vector-3.jpg"><br>
+                        <img class="round-image image-100" src="resources/Vector-3.jpg" alt="drop"><br>
                         <b>Responsable</b>
                     </div>
                     <div class="col-33 center">
-                        <img class="round-image image-100" src="resources/Vector-4.jpg"><br>
+                        <img class="round-image image-100" src="resources/Vector-4.jpg" alt="clock"><br>
                         <b>24/7 Assistance</b>
                     </div>
                 </div>
@@ -208,13 +226,24 @@
         </div>
 
         <div class="section-120"></div>
-        <div>
-            <h2 id="galery" class="green bold big4 center">Notre galerie</h2>
-            <div class="col-100 center">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+        <h2 id="gallery" class="green big60 semi-bold center">Notre galerie</h2>
+        <div class="row">
+            <div class="col-100 big3 semi-bold center padding-50 margin-left-80 margin-right-80">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed leo in nisi vehicula bibendum.
+                Aliquam sit amet blandit nisi, sodales molestie.
+            </div>
         </div>
 
         <div class="center">
-            <img class="square-image image-1000" src="resources/kevin-bhagat-zNRITe8NPqY-unsplash%201.jpg">
+            <img class="image-gallery" src="resources/kevin-bhagat-zNRITe8NPqY-unsplash%201.jpg" alt="desk">
+            <img class="image-gallery" src="resources/rodion-kutsaev-049M_crau5k-unsplash 1.jpg" alt="plant">
+            <div class="clear"></div>
+            <div class="round left">
+                <
+            </div>
+            <div class="round right">
+                >
+            </div>
         </div>
 
         <div class="section-120"></div>
@@ -250,10 +279,20 @@
             </div>
             <div class="col-20 center footer-item">
                 <ul class="footer-links white">
-                    <li><a href="">+33 00 00 00 00 00</a></li>
+                    <li><i class="fa fa-phone yellow" aria-hidden="true"></i> <a href="">+33 00 00 00 00 00</a></li>
                     <li><a href="">+33 00 00 00 00 00</a></li>
                 </ul>
-                <span class="white bold">75001 Paris<br>France</span>
+                <i class="fa fa-map-marker yellow"></i> <span class="white bold">75001 Paris<br>France</span>
+            </div>
+        </div>
+        <div class="row footer-background">
+            <div class="col-50 white big2 margin-top-50 margin-left-150">Copyright © 2021 AGENCECO - Allrights reserved</div>
+            <div class="col-50 margin-top-50 margin-right-150">
+                <span class="float-right">
+                    <i class="fa fa-facebook white"></i>
+                    <i class="fa fa-twitter white"></i>
+                    <i class="fa fa-instagram white"></i>
+                </span>
             </div>
         </div>
     </body>
