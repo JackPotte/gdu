@@ -8,6 +8,7 @@ nav {
     align-items: center;
     min-height: 5vh;
     background-color: white;
+    padding: 20px;
 }
 
 .nav-links {
